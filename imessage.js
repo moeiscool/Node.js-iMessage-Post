@@ -6,10 +6,7 @@ var bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-
-s={};
-s.tx=function(z,y,x){if(x){return x.broadcast.to(y).emit('f',z)};io.to(y).emit('f',z);}
-server.listen(81);
+server.listen(80);
 
 app.get('/', function (req,res){
     res.sendFile(__dirname+'/index.html');

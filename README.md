@@ -1,3 +1,6 @@
+*Send iMessage or SMS through imailer/Node.js*
+
+
 `cd directory/where/you/got/the/goods`
 
 get dependencies `npm install imailer express`
